@@ -1,6 +1,7 @@
 # vanilla-js-projects
 build coding skills and ideas
 
-1. clothing e-commerce
-2.furniture shopping cart
-3.TODO App
+1.Basic TODO App
+2. clothing e-commerce
+3.furniture shopping cart
+4.Travel Landing Page
