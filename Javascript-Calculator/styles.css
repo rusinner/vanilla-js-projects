@@ -1,0 +1,135 @@
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #ecf0f3;
+}
+
+.container {
+  width: 55%;
+  height: 45vh;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 12px 12px 20px #cbcde1, -12px -12px 20px #ffffff;
+}
+.container .display #screen {
+  width: 97%;
+  height: 70px;
+  outline: none;
+  border: none;
+  text-align: right;
+  padding-right: 0.5em;
+  background: #ecf0f3;
+  border-radius: 6px;
+  box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
+}
+.container .btns {
+  width: 100%;
+  margin-top: 1.7em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container .btns .row button {
+  width: 5rem;
+  height: 2rem;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  margin: 5px;
+  border-radius: 4px;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.1254901961), -5px -5px 8px #ffffff;
+  cursor: pointer;
+}
+.container .btns .row button:hover {
+  transform: scale(1.1);
+}
+
+@media only screen and (max-width: 1120px) {
+  .container {
+    width: 60%;
+    height: 73vh;
+  }
+  .btns .row {
+    flex-direction: row;
+  }
+  .btns .row button {
+    width: 3.5rem;
+    height: 1.8rem;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.1254901961), -5px -5px 8px white;
+    transition: 0.1s;
+  }
+  .btns .row button:hover {
+    box-shadow: inset 5px 5px 8px rgba(16, 16, 16, 0.1), inset -5px -5px 8px #fff;
+    background: white;
+  }
+}
+@media only screen and (max-width: 720px) {
+  .container {
+    width: 70%;
+    height: 73vh;
+  }
+  .btns .row button {
+    width: 3rem;
+    height: 1.8rem;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .container {
+    width: 80%;
+    height: 78vh;
+  }
+  .btns .row {
+    flex-direction: row;
+  }
+  .btns .row button {
+    width: 2.5rem;
+    height: 1.2rem;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .container {
+    width: 70%;
+    height: 98vh;
+  }
+  .btns .row {
+    flex-direction: row;
+  }
+  .btns .row button {
+    width: 0.5rem;
+    height: 0.2rem;
+  }
+}
+#eval {
+  background: #33ccff;
+  color: #fff;
+  box-shadow: inset 5px 5px 8px #66d9ff, inset -5px -5px 8px #00ace6;
+}
+#eval:hover {
+  box-shadow: inset 5px 5px 8px #66d9ff, inset -5px -5px 8px #00ace6;
+}
+
+#ac {
+  background: #33cc33;
+  color: #fff;
+}
+#ac:hover {
+  box-shadow: inset 5px 5px 8px #2eb82e, inset -5px -5px 8px #33cc33;
+}
+
+#ce {
+  background: #ff3399;
+  color: #fff;
+}
+#ce:hover {
+  box-shadow: inset 5px 5px 8px #e60073, inset -5px -5px 8px #ff3399;
+}/*# sourceMappingURL=styles.css.map */
